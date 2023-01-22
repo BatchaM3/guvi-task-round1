@@ -12,7 +12,7 @@ read var1
 echo "Enter the var2:"
 read var2
 
-if (var1 == var2);then
+if (var1 = var2);then
 tar -cvf script.tar.gz
 git add .
 git commit -m "value is equal"
